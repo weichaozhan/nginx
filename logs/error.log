@@ -1,0 +1,19 @@
+2018/11/14 16:39:13 [error] 11356#11480: *1 CreateFile() "D:\testspace\nginx-1.14.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/11/14 16:42:30 [emerg] 12164#11656: "gzip" directive is not allowed here in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:42:34 [emerg] 7032#11796: "gzip" directive is not allowed here in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:42:39 [emerg] 11440#12216: "gzip" directive is not allowed here in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:42:56 [emerg] 11340#11920: "gzip" directive is not allowed here in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:46:08 [alert] 9600#5712: OpenEvent("ngx_master_11792") failed (2: The system cannot find the file specified)
+2018/11/14 16:46:40 [error] 9552#11956: *6 CreateFile() "D:\testspace\nginx-1.14.1/html/819/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/11/14 16:53:35 [emerg] 12256#12052: unknown directive "ngx_http_gzip_module" in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:53:35 [alert] 11568#11396: worker process 12256 exited with code 1
+2018/11/14 16:53:35 [alert] 11568#11396: could not respawn worker
+2018/11/14 16:53:39 [emerg] 9240#12080: unknown directive "ngx_http_gzip_module" in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:54:10 [emerg] 11736#8540: unknown directive "ngx_http_gzip_module" in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:54:26 [emerg] 10560#11292: unknown directive "ngx_http_gzip_module" in D:\testspace\nginx-1.14.1/conf/nginx.conf:119
+2018/11/14 16:56:47 [alert] 6020#11848: OpenEvent("ngx_master_12256") failed (2: The system cannot find the file specified)
+2018/11/16 13:23:18 [error] 9580#11524: *5 CreateFile() "D:\testspace\nginx-1.14.1/html/819/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"
+2018/11/16 13:26:14 [error] 9580#11524: *19 CreateFile() "D:\testspace\nginx-1.14.1/html/819/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2018/11/16 13:37:24 [alert] 3344#10800: OpenEvent("ngx_master_10280") failed (2: The system cannot find the file specified)
+2018/11/16 13:40:37 [alert] 10372#9480: OpenEvent("ngx_master_8504") failed (2: The system cannot find the file specified)
+2018/11/16 13:41:36 [alert] 11116#7792: OpenEvent("ngx_master_11028") failed (2: The system cannot find the file specified)
